@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   consul:
   - apiVersion: v1
-    created: "2020-04-10T14:17:59.883169515+02:00"
+    created: "2020-05-17T13:35:28.509854275+02:00"
     description: Install and configure Consul on Kubernetes.
     digest: ab6f9e969da5afe0f61129a00b4f375d4d651619cebd10667ec79b238b68e3a5
     home: https://www.consul.io
@@ -12,11 +12,28 @@ entries:
     - https://github.com/hashicorp/consul-helm
     - https://github.com/hashicorp/consul-k8s
     urls:
-    - https://microdontico.github.io/helm-charts/consul-0.19.0.tgz
+    - consul-0.19.0.tgz
     version: 0.19.0
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: 7.7.0
+    created: "2020-05-17T13:35:28.512744508+02:00"
+    description: Official Elastic helm chart for Elasticsearch
+    digest: d491bfc29285c6756129db08084b7f5028ece3de9a5b460acd8eb0e8675b30cb
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/elasticsearch.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: elasticsearch
+    sources:
+    - https://github.com/elastic/elasticsearch
+    urls:
+    - elasticsearch-7.7.0.tgz
+    version: 7.7.0
   vault:
   - apiVersion: v2
-    created: "2020-04-10T14:17:59.884997962+02:00"
+    created: "2020-05-17T13:35:28.514763565+02:00"
     description: Install and configure Vault on Kubernetes.
     digest: 7ea232a25e7df2568a5c48d969a90d0e4f16792a7d68cc27dccb2d118c27f1dd
     home: https://www.vaultproject.io
@@ -27,6 +44,6 @@ entries:
     - https://github.com/hashicorp/vault-helm
     - https://github.com/hashicorp/vault-k8s
     urls:
-    - https://microdontico.github.io/helm-charts/vault-0.5.0.tgz
+    - vault-0.5.0.tgz
     version: 0.5.0
-generated: "2020-04-10T14:17:59.878209264+02:00"
+generated: "2020-05-17T13:35:28.505511218+02:00"
