@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   consul:
   - apiVersion: v1
-    created: "2020-05-17T13:42:15.115102328+02:00"
+    created: "2020-05-17T15:58:56.125440465+02:00"
     description: Install and configure Consul on Kubernetes.
     digest: ab6f9e969da5afe0f61129a00b4f375d4d651619cebd10667ec79b238b68e3a5
     home: https://www.consul.io
@@ -17,7 +17,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.7.0
-    created: "2020-05-17T13:42:15.117673347+02:00"
+    created: "2020-05-17T15:58:56.129061295+02:00"
     description: Official Elastic helm chart for Elasticsearch
     digest: c93e1ae33dbd8c23cb55bb08999625a7a97121be70ebaabef6d87809b4293325
     home: https://github.com/elastic/helm-charts
@@ -31,9 +31,26 @@ entries:
     urls:
     - elasticsearch-7.7.0.tgz
     version: 7.7.0
+  logstash:
+  - apiVersion: v1
+    appVersion: 7.6.1
+    created: "2020-05-17T15:58:56.13042295+02:00"
+    description: Official Elastic helm chart for Logstash
+    digest: 5ed5ae16b26129d7c61e788d2761ea066e22bb8ff21218924bd84d1d431b5f33
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/logstash.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: logstash
+    sources:
+    - https://github.com/elastic/logstash
+    urls:
+    - logstash-7.6.1.tgz
+    version: 7.6.1
   vault:
   - apiVersion: v2
-    created: "2020-05-17T13:42:15.11935022+02:00"
+    created: "2020-05-17T15:58:56.132165946+02:00"
     description: Install and configure Vault on Kubernetes.
     digest: 7ea232a25e7df2568a5c48d969a90d0e4f16792a7d68cc27dccb2d118c27f1dd
     home: https://www.vaultproject.io
@@ -46,4 +63,4 @@ entries:
     urls:
     - vault-0.5.0.tgz
     version: 0.5.0
-generated: "2020-05-17T13:42:15.110547302+02:00"
+generated: "2020-05-17T15:58:56.120939694+02:00"
